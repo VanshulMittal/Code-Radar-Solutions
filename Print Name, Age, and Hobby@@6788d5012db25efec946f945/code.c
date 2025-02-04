@@ -8,6 +8,8 @@ int main() {
     char c[100];
     scanf("%s %d",&a,&b);
     scanf("%s",&c);
-    printf("Name: %s \nAge: %d \nHobby: %c",a,b,c);
+    printf("Name: %s",a);
+    printf("Age: %d",b);
+    printf("Hobby: %s",c)
     return 0;
 }
