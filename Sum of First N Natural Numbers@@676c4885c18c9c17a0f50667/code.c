@@ -4,8 +4,9 @@
 
 int main() {
     int i,a;
+    scanf("%d",&i);
     a=0;
-    for (i=1;i<11;i++){
+    for (i=0;i;i++){
         a+=i;
 
     }
