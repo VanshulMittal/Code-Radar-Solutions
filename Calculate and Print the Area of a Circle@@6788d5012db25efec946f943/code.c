@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 int main(){
-    int r,a;
+    int r;
     scanf("%d",&r);
-    a=3.14;
-    printf("Area: %d",a*r*r);
+    float a=3.14;
+    printf("Area: %.2f",a*r*r);
     return 0;
 
 }
