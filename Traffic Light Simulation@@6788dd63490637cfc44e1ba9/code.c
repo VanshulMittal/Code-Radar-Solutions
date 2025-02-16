@@ -1,22 +1,23 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
     char a;
-    scanf("%c", &a);
-    switch(a){
-        case R:
-        printf("Stop");
-        break;
-        case G:
-        printf("Go");
-        break;
-        case Y:
-        printf("Slow Down");
-        break;
+    scanf("%c", &a);  // Reads a single character input
+    
+    switch(a) {
+        case 'R':  // 'R' is the character literal for Red
+            printf("Stop");
+            break;
+        case 'G':  // 'G' is the character literal for Green
+            printf("Go");
+            break;
+        case 'Y':  // 'Y' is the character literal for Yellow
+            printf("Slow Down");
+            break;
         default:
-        printf("Invalid input");
-        break;
+            printf("Invalid input");  // Default case for invalid input
+            break;
     }
     return 0;
 }
+
