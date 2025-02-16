@@ -3,6 +3,6 @@
 int main() {
     int n;
     scanf("%d", &n);
-    printf(stderr, "%d\n", n);
+    fprintf(stderr, "%d\n", n); // Correct way to print to stderr
     return 0;
 }
