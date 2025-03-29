@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 void checksorted(int arr[],int n){
     for ( int i=1;i<n;i++){
