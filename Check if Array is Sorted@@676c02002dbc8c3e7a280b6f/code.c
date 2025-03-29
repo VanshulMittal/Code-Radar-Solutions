@@ -17,7 +17,7 @@ int main(){
         scanf("%d",arr[i]);
         
     }
-    checksorted(arr[],n);
+    checksorted(arr,n);
     return 0;
 
 }
