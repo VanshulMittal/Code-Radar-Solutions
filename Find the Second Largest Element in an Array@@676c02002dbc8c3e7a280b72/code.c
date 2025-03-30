@@ -29,7 +29,7 @@ int main() {
     if (max2 == -1) 
         printf("No second largest element found.\n");
     else 
-        printf("Second Largest = %d\n", max2);
+        printf("%d\n", max2);
 
     return 0;
 }
