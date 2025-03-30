@@ -4,11 +4,6 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    if (n < 2) {  // If array has less than 2 elements
-        printf("Array must have at least two elements.\n");
-        return 1;
-    }
-
     int arr[n];  // Declare array properly
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
