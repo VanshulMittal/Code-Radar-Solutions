@@ -7,7 +7,7 @@ int main(){
     scanf("%d ",&arr[0]);
     int max1=arr[0];
     int max2=-1;
-    for(i=1;i<n;i++){
+    for(int i=1;i<n;i++){
         scanf("%d",arr[i]);
         if(arr[i]>max1){
             max2=max1;
