@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int n;
-    scnaf("%d",&n);
+    scanf("%d",&n);
     int arr[n];
     scanf("%d ",&arr[0]);
     int max1=arr[0];
