@@ -1,23 +1,31 @@
-// Your code here...
 #include <stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for (int i=0;i<n;i++){
-        scanf("%d ",&arr[i]);
-    }
-    int min=arr[0];
-    int min1=-1;
-    for(int i=1;i<n;i++){
-        if(arr[i]<min){
-            min1=min;
-            min=arr[i];
 
-        }else if(arr[i]<min1 && arr[i] != min){
-            min1=arr[i];
+int main() {
+    int n;
+    scanf("%d", &n);
+    
+    if (n < 2) {  // If array has less than 2 elements
+        printf("Array must have at least two elements.\n");
+        return 1;
+    }
+
+    int arr[n];  // Declare array properly
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    int max = arr[0];  // Largest number
+    int max2 = -1;     // Second largest number
+
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < max) {
+            max2 = max;  // Update second largest
+            max = arr[i]; // Update largest
+        } else if (arr[i]  < && arr[i] != max) {
+            max2 = arr[i];  // Update second largest
         }
     }
-    printf("%d",&min1);
+        printf("%d\n", max2);
+
     return 0;
 }
