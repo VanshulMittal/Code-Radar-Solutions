@@ -21,7 +21,7 @@ int main() {
         if (arr[i] < max) {
             max2 = max;  // Update second largest
             max = arr[i]; // Update largest
-        } else if (arr[i]  < && arr[i] != max) {
+        } else if (arr[i]  < max2 && arr[i] != max) {
             max2 = arr[i];  // Update second largest
         }
     }
