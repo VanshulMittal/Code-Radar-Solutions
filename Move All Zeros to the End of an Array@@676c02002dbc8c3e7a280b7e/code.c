@@ -9,7 +9,7 @@ void check(int n,int arr[]){
 
         }
     }
-    for(int i=0;i<n;i++){
+    for(int i=index;i<n;i++){
         arr[i]=0;
     }
 }
@@ -23,7 +23,7 @@ int main(){
     }
     check(n,arr);
     for (int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
 
     }
     printf("\n");
