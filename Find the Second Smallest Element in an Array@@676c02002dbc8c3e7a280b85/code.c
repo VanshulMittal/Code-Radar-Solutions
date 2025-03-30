@@ -10,7 +10,7 @@ int main() {
     }
 
     int max = arr[0];  // Largest number
-    int max2 = -100;     // Second largest number
+    int max2 = -1;     // Second largest number
 
     for (int i = 1; i < n; i++) {
         if (arr[i] < max) {
