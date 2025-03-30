@@ -3,7 +3,7 @@
 void even(int arr[],int n){
     int d=-1;
     int max=arr[0]
-    for(int i =0;i<n;i++){
+    for(int i =1;i<n;i++){
         if(arr[i]%2 ==0){
             if(arr[i]>max){
                 max=arr[i];
