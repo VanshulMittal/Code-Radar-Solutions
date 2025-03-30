@@ -26,9 +26,7 @@ int main() {
         }
     }
 
-    if (max2 == -1) 
-        printf("No second largest element found.\n");
-    else 
+
         printf("%d\n", max2);
 
     return 0;
