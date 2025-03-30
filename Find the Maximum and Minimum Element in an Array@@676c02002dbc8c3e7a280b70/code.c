@@ -5,14 +5,14 @@ int main(){
     scanf("%d",&n);
     int arr[n];
      int max=arr[0];
-    int min=arr[n-1];
+    int min=arr[0];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         if(arr[i]>max){
-            arr[i]=max;
+            max=arr[i];
         }
         else if(arr[i]<min){
-            arr[i]=min;
+            min=arr[i];
         }
 
     }
